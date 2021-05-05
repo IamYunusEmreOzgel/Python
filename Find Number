@@ -1,0 +1,19 @@
+This game is an example of a two-player game where players try to guess a number between 0
+and 100 one by one. The game starts with the first player. The system generates a random
+number and the first player tries to guess it. Until he finds it, his trials should be recorded to be
+compared with his rival. While guessing the generated number the system will direct the player
+to make him find. If the predicted number is less than the generated number, then the system
+gives a feedback to make player to renew his prediction to come close to generated number.
+When he completes the guessing section, he is asked whether he wants to go on or not. Then,
+now it is the second player’s turn. The system generates another random number and she tries
+to guess it. Until she finds it, her trials should be recorded too. When she finds the expected
+random number, she is asked for her decision to go on or quit. By using their decision about
+going on or quit, the program decides on the flow. If any of them do not have fun and do not
+want to go on, the program should give an output for the current state. If the number of games
+between these 2 players is between 0 and 5, then each win has 5 points. Loss and draw do not
+affect obtained results. If the number of games is less than or equal to 5, then there is no need
+to check for a tie break. There can be a draw, it is not a problem. If the number of games more
+than 5, each win has 10 points. If the number of games is more than 5 and also even like 6, 8
+and so on, then these players should be asked for a final match to give a chance for the one
+who needs more points. This match brings 15 points. For odd numbers such as 7, 9 and so on,
+no need to ask for an extra match
